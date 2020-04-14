@@ -277,14 +277,15 @@ MYAPP 9876: myapp debug message [123]
 
 如果您需要更高级的消息传递级别，详细程度，排序，文件输出，概要分析等选项，则可以使用第三方日志记录模块。热门选项包括：
 
-- [舱](https://www.npmjs.com/package/cabin)
-- [日志级别](https://www.npmjs.com/package/loglevel)
-- [摩根](https://www.npmjs.com/package/morgan)（Express.js中间件）
-- [皮诺](https://www.npmjs.com/package/pino)
-- [信号](https://www.npmjs.com/package/signale)
-- [故事板](https://www.npmjs.com/package/storyboard)
-- [示踪剂](https://www.npmjs.com/package/tracer)
-- [温斯顿](https://www.npmjs.com/package/winston)
+- [cabin](https://www.npmjs.com/package/cabin)
+- [loglevel](https://www.npmjs.com/package/loglevel)
+- [morgan](https://www.npmjs.com/package/morgan) (Express.js middleware)
+- [pino](https://www.npmjs.com/package/pino)
+- [signale](https://www.npmjs.com/package/signale)
+- [storyboard](https://www.npmjs.com/package/storyboard)
+- [tracer](https://www.npmjs.com/package/tracer)
+- [winston](https://www.npmjs.com/package/winston)
+
 
 ## Node.js V8检查器
 
@@ -332,7 +333,7 @@ debug>
 - `restart` 一个剧本
 - `.exit`调试器（`.`必须是缩写）
 
-如果这听起来很笨拙，*那就是*。仅在绝对没有其他选择时，才使用内置的调试客户端，您会感到特别受虐，并且您没有使用Windows（这经常有问题）。
+没得选时，才使用内置的debug客户端，虽然感到特别蛋疼。并且在您没有使用Windows情况下（这经常有问题）。
 
 ## 使用Chrome进行Node.js调试
 
@@ -915,6 +916,10 @@ Finally, commercial services such as [LogRocket](https://logrocket.com/) and [Se
 Node.js has a range of great debugging tools and code analyzers which can improve the speed and reliability of your application. Whether or not they can tempt you away from `console.log()` is another matter!
 
 [![img](https://secure.gravatar.com/avatar/439aeaff7de2bae365adc3eb4947b44d?s=96&d=mm&r=g)](https://www.sitepoint.com/author/craig-buckler/)
+
+
+
+
 
 
 
